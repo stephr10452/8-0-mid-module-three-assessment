@@ -1,7 +1,22 @@
+import { Component } from "react";
 import "./App.css";
+import Products from "./components/Products";
 
-const App = () => {
-  return <h1>Hello, world!</h1>;
-};
+
+class App extends Component {
+
+  
+  
+  render(){
+  return(
+    <div className="App">
+      <h1>My Garage Sale</h1>
+       <Products />
+       
+   </div>
+  )
+}
+}
+
 
 export default App;
